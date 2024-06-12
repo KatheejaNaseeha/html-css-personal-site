@@ -1,0 +1,122 @@
+body {
+    background-color: #76453B;
+}
+#first {
+    margin-bottom: 100px;
+}
+h1{  
+     
+    font-size: 4rem; 
+    font-weight: bolder; 
+    color: #803D3B;       
+}
+h3{
+    font-family: Brygada 1918, serif; 
+    font-size: 2.5rem; 
+    font-weight: bold; 
+    font-style: italic; 
+    color: #A67B5B; 
+}
+p{
+    color: #803D3B;
+    font-weight: 500;
+    font-size: 18pt;
+}
+.header-div{   
+    margin: 100px 150px;    
+    padding: 100px 50px;     
+    border-radius: 20px;
+    background-color: #F1E4C3;
+    background-image: url("./Assets/Images/content-div-background.png");
+}
+.content-div{    
+    background-color: white; 
+    border: 10px solid #DAC0A3;
+    height: 600px;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+.image{
+    padding: 20px;    
+    width: 45%;
+    margin-top: 100px;
+}
+.left{
+    float: left
+}
+.right{
+    float: right;
+}
+.python-image, .web-design-image {
+    float: left;
+    width: 45%;
+    margin-right: 20px;
+}
+
+#second{
+    background-color: #FEFAF6;  
+    height: 300px;   
+    font-weight: bolder;
+    padding: 30px;
+    font-size: 3rem;
+    text-align: center;  
+    font-family: Brygada 1918, serif;
+    color: #803D3B;  
+    /* margin: 30px 0px;  */
+} 
+a{
+    color: #FFF2E1;
+} 
+
+.footer{  
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+#third{
+    background-color: white;
+    height: 400px;  
+    padding: 100px; 
+}
+ 
+.my-skills{
+    display: flex;    
+    justify-content: space-between;
+    align-content: center;
+}
+h2 {
+    font-family: "Bona Nova", serif;      
+    color: #803D3B;    
+    font-weight: bold;
+}
+#fourth{
+    background-color:#FFF7F1;
+    height: 1000px;
+    padding: 25px;
+    text-align: center;
+    border: 10px solid #A67B5B;
+    margin: 75px;
+}
+.table{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 9px
+    
+}
+button{
+    background-color: white;
+    color: #803D3B; 
+    border-radius: 5%; 
+    font-size: 12pt; 
+    width: 120px; 
+    height: 60px;
+    font-weight: bold;
+    font-family: Brygada 1918, serif;
+}
+
+
